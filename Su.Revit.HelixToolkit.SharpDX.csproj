@@ -104,10 +104,14 @@
 	<ItemGroup>
 		<PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RvtVersion).0.0" PrivateAssets="All"> </PackageReference>
 		<PackageReference Include="HelixToolkit.Wpf.SharpDX" Version="3.1.1" />
-		<PackageReference Include="ricaun.Revit.UI" Version="*" Condition="$([System.String]::Copy('$(Configuration)').Contains('D'))" PrivateAssets="All"/>
+		<PackageReference Include="ricaun.Revit.UI" Version="*" Condition="$([System.String]::Copy('$(Configuration)').Contains('D'))" PrivateAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<None Update="README.en.md">
+		  <PackagePath>\</PackagePath>
+		  <Pack>True</Pack>
+		</None>
 		<None Update="README.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
