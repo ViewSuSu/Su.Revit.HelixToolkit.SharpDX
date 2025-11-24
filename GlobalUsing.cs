@@ -1,0 +1,11 @@
+﻿global using System.Numerics;
+global using HelixToolkit;
+global using HelixToolkit.Geometry;
+global using HelixToolkit.Maths;
+global using HelixToolkit.SharpDX;
+global using HelixToolkit.Wpf.SharpDX;
+global using Su.Revit.HelixToolkit.SharpDX.Extensions;
+global using Su.Revit.HelixToolkit.SharpDX.Utils;
+global using SharpDX.Direct3D11;
+global using MeshGeometry3D = HelixToolkit.SharpDX.MeshGeometry3D;
+global using OrthographicCamera = HelixToolkit.Wpf.SharpDX.OrthographicCamera;
