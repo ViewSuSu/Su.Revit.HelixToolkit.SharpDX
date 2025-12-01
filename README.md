@@ -1,4 +1,8 @@
-﻿# 🚀 Su.Revit.HelixToolkit.SharpDX 使用说明文档
+![Revit Support](https://img.shields.io/badge/Revit-2013~2026-green)
+![Platform](https://img.shields.io/badge/Platform-WPF%2BSharpDX-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+# 🚀 Su.Revit.HelixToolkit.SharpDX 使用说明文档
 
 ## 🌐 项目地址
 
@@ -23,11 +27,11 @@ Install-Package Su.Revit.HelixToolkit.SharpDX
 dotnet add package Su.Revit.HelixToolkit.SharpDX
 ```
 
-### 兼容性
+### 包引用 (csproj)
 
-- ✅ **支持版本**: Revit 2013 - Revit 2026
-- ✅ **.NET Framework**: 4.8+
-- ✅ **依赖项**: HelixToolkit.Wpf.SharpDX, Revit API
+```xml
+<PackageReference Include="Su.Revit.HelixToolkit.SharpDX" Version="1.0.0" />
+```
 
 ---
 
@@ -367,25 +371,9 @@ var options = new GeometryObjectOptions(largeSolidModel, material);
 - ✅ 渲染参数是否在合理范围内
 - ✅ 内存使用是否正常，及时调用 Clear() 释放资源
 
-### 🔍 调试技巧
-
-```csharp
-// 检查选中的模型
-var selected = builder.GetSelectedModels();
-Console.WriteLine($"选中了 {selected.Count()} 个模型");
-
-// 检查几何对象映射
-var geometryObjects = builder.GetSelectedGeometryObjects();
-foreach (var geoObj in geometryObjects)
-{
-    Console.WriteLine($"几何对象类型: {geoObj.GetType()}");
-}
-```
-
 ### 📚 更多资源
 
 - 📖 **完整源代码**: 请访问上面的 GitHub 或 Gitee 仓库
-- 🐛 **问题反馈**: 欢迎在仓库中提交 Issue
 - 💡 **功能建议**: 欢迎提交 Pull Request 或功能建议
 - 📋 **更新日志**: 查看仓库的 Release 页面获取最新版本信息
 
