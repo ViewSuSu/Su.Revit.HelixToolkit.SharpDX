@@ -382,3 +382,8 @@ If you encounter problems during use, please check:
 ---
 
 **🎉 Start using Su.Revit.HelixToolkit.SharpDX to create outstanding 3D visualization experiences!**
+
+
+## 星曲线图 / Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ViewSuSu/Su.Revit.HelixToolkit.SharpDX&type=Date)](https://star-history.com/#ViewSuSu/Su.Revit.HelixToolkit.SharpDX&Date)

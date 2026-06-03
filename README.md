@@ -382,3 +382,8 @@ var options = new GeometryObjectOptions(largeSolidModel, material);
 ---
 
 **🎉 开始使用 Su.Revit.HelixToolkit.SharpDX 创建出色的 3D 可视化体验吧！**
+
+
+## 星曲线图 / Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ViewSuSu/Su.Revit.HelixToolkit.SharpDX&type=Date)](https://star-history.com/#ViewSuSu/Su.Revit.HelixToolkit.SharpDX&Date)
